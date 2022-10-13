@@ -24,6 +24,7 @@ public class Stack {
 				linkedList.insertFirst(dataFirst);
 				break;
 			case 2:
+				linkedList.peakPop();
 				break;
 			case 3:
 				linkedList.showLinkedList();
